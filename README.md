@@ -49,3 +49,12 @@ yarn gen:types:watch
 ## License
 
 [MIT](LICENSE)
+技术栈
+客户端使用react-native-web，通过它可以很轻松的构建一个移动应用程序
+Server 端通过Node.js编写，服务器使用GraphQL和apolo -server在客户端和服务器之间传递数据，使用typegoose与Mongo进行交互，账户设置则是使用accounts.js库
+GraphQL解析器生成类型则是通过type-graphql和graphql-codegen
+
+此外，Jason还使用了一些简单的CSS及react-spring构建的许多动画，如果你是一名React开发者，那你一定会感谢他的
+
+用法
+想要该程序正常运行，你还需要进行以下操作，获取API，并将它们添加到客户端和服务器配置文件当中
